@@ -1,0 +1,52 @@
+.entDiv{
+    width: 800px;
+    height: 1000px;
+    background-color: darkblue;
+    display:inline-block;
+    text-align: center;
+    padding: 30px;
+    border: 7px solid darkred;
+}
+
+
+.entDiv p{
+    text-align: justify;
+}
+
+.entpic{
+    width:500px;
+    height:500px;
+    object-fit: cover;
+}
+
+#beautypic{
+    object-position: 10px -20px;
+}
+
+#beautyDiv{
+    background-image: url("./images/beauty.png");
+    background-size: 180px 180px;
+    background-repeat:no-repeat;
+    border: 20px dashed blueviolet;
+    padding:40px;
+    background-origin: padding-box;
+}
+
+
+#royalityDiv{ 
+    background-image: url("./images/royality.webp");
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    background-position: right cente;
+    border: 30px dotted gray;
+    padding: 50px;
+    background-clip: content-box;
+
+
+}
+
+
+#salesforce{
+    background-image: url("./images/salesforce.jpg");
+    background-attachment: fixed;
+}
